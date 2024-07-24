@@ -9,7 +9,7 @@ div_formularios.className = "div-formularios";
 
 //Se crea una lista de datos
 let formularios = [
-    {nombre : "login", link: "https"},
+    {nombre : "login", link: "componentes/Login/login.html"},
     {nombre : "login", link: "https"},
     {nombre : "login", link: "https"},
     {nombre : "login", link: "https"}
