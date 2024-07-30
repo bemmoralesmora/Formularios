@@ -10,9 +10,11 @@ div_formularios.className = "div-formularios";
 //Se crea una lista de datos
 let formularios = [
     {nombre : "login", link: "componentes/Login/login.html"},
-    {nombre : "login", link: "https"},
-    {nombre : "login", link: "https"},
-    {nombre : "login", link: "https"}
+    {nombre : "formulario De Contacto", link: "componentes/fomularioDeContacto/fomularioDeContacto.html"},
+    {nombre : "formulario De Registro", link: "componentes/formularioDeRegisto/formularioDeRegisto.html"},
+    {nombre : "formulario De Búsqueda", link: "componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
+    {nombre : "formulario De Pedido Compras", link: "componentes/formularioDePedidoCompras/formularioDePedidoCompras.html"},
+    {nombre : "formulario De Comentarios Reseñas", link: "componentes/formularioDeComentariosReseñas/formularioDeComentariosReseñas.html"},
 ];
 
 //forEach por cada elemento de la lista va a dar una alerta.
