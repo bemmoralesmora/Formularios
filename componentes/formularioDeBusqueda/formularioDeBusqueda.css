@@ -1,0 +1,83 @@
+.box-busqueda {
+    width: 100%;
+    max-width: 150rem;
+    height: 80rem;
+    margin: auto;
+    margin-top: 5%;
+
+    background-color: #21D4FD;
+    background-image: linear-gradient(270deg, #21D4FD 0%, #B721FF 100%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.td-busqueda {
+    width: 100%;
+    max-width: 140rem;
+    height: 70rem;
+    margin: auto;
+    margin-top: 3.3%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-busqueda {
+    width: 100%;
+    max-width: 67rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-busqueda {
+    width: 100%;
+    height: 60rem;
+    max-width: 67rem;
+    gap: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.contenido-busqueda h1 {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.contenido-busqueda h3 {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenido-busqueda h4 {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.contenido-busqueda label input {
+    width: 50rem;
+    height: 5rem;
+    border-radius: 50px;
+    border: none;
+}
+
+.contenido-busqueda label {
+    gap: 2px;
+    display: flex; 
+    align-items: center;
+}
+
+.contenido-busqueda label span {
+    color: white;
+    font-size: 3.5rem;
+}
